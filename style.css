@@ -9,3 +9,84 @@ body{
     background-color: #f7faff !important;
     font-family: 'Rambla', sans-serif;
 }
+
+h2, h3{
+    font-family: "audiowide", sans-serif;
+    letter-spacing: 0.2em;
+    text-transform:uppercase;
+    text-shadow: -1 -1 1 #283655;
+}
+
+li{
+    list-style-type: none;
+}
+
+/************************ HEADER **********************************************/
+.navbar{
+    background-color: #fafafa;
+    opacity: 0.9;
+    height: 42px;
+    transition: 0.7;
+}
+
+.navbar-nav{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+header{
+    text-align: center;
+    height: 100vh;
+    background: url(media/header.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+}
+
+h1{
+    padding: 90px 0 10px 0;
+    font-family: "josefin sans", sans-serif;
+    font-weight: 100;
+    font-size: 4.3em;
+    text-transform: uppercase;
+}
+
+#line{
+    height: 1px;
+    background: #b3aca7;
+    width: 25%;
+    margin: 0 auto;
+}
+
+h2{
+    padding: 20px 0 50px 0;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.presentation{
+    height: 240px;
+    margin-top: 20px;
+}
+
+.info{
+    border: 1px solid #b3aca7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.photo{
+    border: 1px solid #b3aca7;
+    position: relative;
+}
+
+.photo img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin: auto;
+    height: auto;
+}
