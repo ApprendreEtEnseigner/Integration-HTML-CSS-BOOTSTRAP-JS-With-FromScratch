@@ -89,4 +89,24 @@ h2{
     right: 0;
     margin: auto;
     height: auto;
+    width: 90%;
+    border-radius: 3px;
+    box-shadow: 0 0 4px #111;
+}
+
+header .button{
+    margin-top: 45px;
+}
+
+header .button a{
+    padding: 20px 80px;
+    border: 1px solid #b3aca7;
+    width: 300px;
+}
+
+header .button:hover a{
+    background-color: #b3aca7;
+    color: #e2dedb;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
 }
