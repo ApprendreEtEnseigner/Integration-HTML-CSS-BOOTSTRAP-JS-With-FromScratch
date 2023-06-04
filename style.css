@@ -26,7 +26,8 @@ li{
     background-color: #fafafa;
     opacity: 0.9;
     height: 42px;
-    transition: 0.7;
+    transition: 0.7s;
+    top: 0;
 }
 
 .navbar-nav{
@@ -37,7 +38,7 @@ li{
 
 header{
     text-align: center;
-    height: 100vh;
+    height: 300vh;
     background: url(media/header.jpg) no-repeat fixed 50% 50%;
     background-size: cover;
 }
